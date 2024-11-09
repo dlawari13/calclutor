@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="closebtn()">
+    <div class="continar">
+        <input type="text" id="textbox" disabled va>
+         <div class="place"><img src="close1.png" alt="close" id="close" onclick="eletevalue()"></div>
+        <div id="sptr">___________________________________</div>
+            <button id="btn-clear" onclick="cleardata()">C</button>
+            <button onclick="appendCharctor('()')">()</button>
+            <button onclick="modols()">%</button>
+            <button class="btn-change" onclick="appendCharctor('/')">÷</button>
+
+      
+            <button  onclick="appendCharctor('7')">7</button>
+            <button onclick="appendCharctor('8')">8</button>
+            <button onclick="appendCharctor('9')">9</button>
+            <button class="btn-change" onclick="appendCharctor('*')">X</button>
+     
+       
+            <button onclick="appendCharctor('4')">4</button>
+            <button  onclick="appendCharctor('5')">5</button>
+            <button onclick="appendCharctor('6')">6</button>
+            <button class="btn-change" onclick="appendCharctor('-')">-</button>
+     
+            <button onclick="appendCharctor('1')">1</button>
+            <button onclick="appendCharctor('2')">2</button>
+            <button onclick="appendCharctor('3')">3</button>
+            <button class="btn-change" onclick="appendCharctor('+')">+</button>
+    
+            <button onclick="appendCharctor('+')">+/-</button>
+            <button onclick="appendCharctor('0')">0</button>
+            <button onclick="appendCharctor('.')" >.</button>
+            <button class="btn-change" onclick="calcalet()">=</button>
+ 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
